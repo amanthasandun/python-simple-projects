@@ -11,4 +11,4 @@ operations = {
  
 result = operations.get(operator , "invalid operator")  # dictionary.get(key, default_value)
 print(result)                                           # key → the key you are looking for
-                                                        # default_value → what to return if the key is NOT found+
+                                                        # default_value → what to return if the key is NOT found
