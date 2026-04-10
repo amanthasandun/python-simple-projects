@@ -13,6 +13,6 @@ func = operations.get(opertor)
 if func : 
     result = func(num1 , num2)  # finally func is a lamda function .  so when we enter the values as in this way it aumatacally sign the parameters in the lamda funtion in the order 
 else :
-    result = "Invalid operator"
+    result = f"{opertor} is not valid operator"
 
 print(result)
